@@ -1,0 +1,379 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: 1rem;
+    color: #404040;
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    clear: both;
+    display: block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Add your css into here*/
+.fl_left {
+    float: left;
+}
+
+.fl_right {
+    float: right;
+}
+
+
+/* SSSS */
+
+@media only screen and (max-width: 991px) {
+    header.main-header {
+        height: auto;
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar .navbar-brand {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .navbar .navbar-brand {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar .navbar-brand span.logo {
+        font-size: 13px;
+        padding-left: 38px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-toggler {
+        padding: 0rem 0rem !important;
+        border: 0 none;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-toggler-icon.fa {
+        font-size: 20px;
+        line-height: 1.2em;
+        color: #fff;
+        line-height: 34px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-dark .navbar-toggler-icon {
+        background-image: none;
+        padding: 0;
+        width: 34px;
+        height: 34px;
+        display: inline-block;
+        background: #009f4d;
+        border-radius: 4px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-collapse {
+        max-height: calc(100vh - 80px);
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav {
+        animation-name: none;
+        float: left;
+        text-align: center;
+        width: 100%;
+        padding: 20px 0 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-slider .slick-arrow {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-slider .slick-arrow.slick-prev {
+        right: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .slick-initialized .banner-slide {
+        min-height: 550px;
+    }
+}
+
+@media (max-width: 568px) {
+    .slick-initialized .banner-slide {
+        min-height: 600px;
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slick-initialized .banner-slide {
+        min-height: 650px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .slick-initialized .banner-slide {
+        min-height: 700px;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header-search {
+        top: 6px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+.header-search {
+    position: absolute;
+    right: 65px;
+    top: 10px;
+}}
+
+@media only screen and (max-width: 991px){
+.control .btnSearch {
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+}}
+
+@media only screen and (max-width: 568px){
+.header-search .icon-close {
+    right: -60px;
+    z-index: 9;
+    font-size: 45px;
+}}
+
+@media only screen and (max-width: 736px){
+.header-search .icon-close {
+    right: -110px;
+    z-index: 9;
+}}
+
+@media only screen and (max-width: 991px){
+.header-search .icon-close {
+    right: -50px;
+}}
+
+@media only screen and (max-width: 480px){
+.searchInput input {
+    font-size: 40px;
+}
+}
+
+@media only screen and (max-width: 568px){
+    .searchInput input {
+        font-size: 46px;
+    }
+    }
+
+    @media only screen and (max-width: 736px){
+.searchInput input {
+    position: absolute;
+    right: -80px;
+}}
+
+@media only screen and (max-width: 991px){
+.searchInput input {
+    position: absolute;
+    right: -50%;
+    width: initial;
+}}
+
+@media (max-width: 1080px){
+.title-big {
+    font-size: 32px !important;
+    line-height: 40px;
+}}
+
+@media (max-width: 800px){
+.feature .grids-1 {
+    padding: 1.5em;
+}}
+
