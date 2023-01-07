@@ -274,7 +274,7 @@ body.active .searchInput {
 }
 
 .bg1 {
-    background: url(/assets/img/b1.jpg);
+    background: url(./assets/img/b1.jpg);
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: top;
@@ -284,7 +284,7 @@ body.active .searchInput {
 }
 
 .bg2 {
-    background: url(/assets/img/b2.jpg);
+    background: url(./assets/img/b2.jpg);
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: top;
@@ -293,7 +293,7 @@ body.active .searchInput {
 }
 
 .bg3 {
-    background: url(/assets/img/b3.jpg);
+    background: url(./assets/img/b3.jpg);
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: top;
@@ -302,7 +302,7 @@ body.active .searchInput {
 }
 
 .bg4 {
-    background: url(/assets/img/b4.jpg);
+    background: url(./assets/img/b4.jpg);
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: top;
